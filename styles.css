@@ -1,0 +1,22 @@
+
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+my-app > * {
+  margin: 40px !important;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  text-align: center;
+  padding-top: 5px;
+  color: black;
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  font-size: 11px;
+  margin: 5px;
+  border-radius: 4px;
+  display: inline-block;
+}

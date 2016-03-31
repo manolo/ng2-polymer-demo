@@ -1,0 +1,23 @@
+{
+  "name": "a2demo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Manolo Carrasco <manolo@vaadin.com>"
+  ],
+  "license": "Apache-2.0",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-ajax": "^1.2.0",
+    "vaadin-upload": "^1.0.0-alpha3",
+    "vaadin-date-picker": "^1.0.0-alpha6"
+  }
+}
