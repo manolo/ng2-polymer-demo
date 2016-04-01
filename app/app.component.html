@@ -4,6 +4,6 @@
 
 <iron-ajax id="ajax" url="ajax/images.json" handle-as="json"></iron-ajax>
 
-<vaadin-upload-file></vaadin-upload-file>
+<vaadin-upload-file [file]="files[0]"></vaadin-upload-file>
 
-<vaadin-upload></vaadin-upload>
+<vaadin-upload [(files)]="files"></vaadin-upload>
