@@ -1,5 +1,5 @@
 
-import { Component, Input, OnInit, ChangeDetectorRef, ElementRef }  from 'angular2/core';
+import { Component, OnInit, ElementRef }  from 'angular2/core';
 
 class UploadFile
 {

@@ -6,4 +6,8 @@
 
 <vaadin-upload-file [file]="files[0]"></vaadin-upload-file>
 
-<vaadin-upload [(files)]="files"></vaadin-upload>
+<vaadin-upload [(files)]="files" (files-changed)="foo"></vaadin-upload>
+
+<div *ngFor="#file of files" class="img" style="background-image: url('{{file.src}}')">
+    {{file.name}}
+</div>
